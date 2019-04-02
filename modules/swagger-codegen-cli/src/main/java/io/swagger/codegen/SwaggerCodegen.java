@@ -18,6 +18,10 @@ import io.swagger.codegen.cmd.Version;
  */
 public class SwaggerCodegen {
 
+    /*
+    --import-mappings Pet=my.models.MyPet,Order=my.models.MyOrder
+    generate -i http://122.112.255.3:6520/swagger-ui/api.swagger.json -l java -c E:/code/study/swagger-codegen/modules/swagger-codegen-cli/src/main/resources/cfg.json -o /sv/samples/client/dac
+     */
 
     public static void main(String[] args) {
         String version = Version.readVersionFromResources();
