@@ -1,0 +1,10 @@
+{
+  "modelPackage":"com.xzl.ywpt.vac.feign.model",
+  "apiPackage":"com.xzl.ywpt.vac.feign.api",
+  "invokerPackage":"com.xzl.ywpt.vac.invoker",
+  "groupId":"com.xzl.ywpt",
+  "artifactId":"vacFeign",
+  "artifactVersion":"1.0.0",
+  "modelNamePrefix":"Vac",
+  "library":"feign"
+}

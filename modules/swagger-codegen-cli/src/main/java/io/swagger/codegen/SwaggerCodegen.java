@@ -21,6 +21,8 @@ public class SwaggerCodegen {
     /*
     --import-mappings Pet=my.models.MyPet,Order=my.models.MyOrder
     generate -i http://122.112.255.3:6520/swagger-ui/api.swagger.json -l java -c E:/code/study/swagger-codegen/modules/swagger-codegen-cli/src/main/resources/cfg.json -o /sv/samples/client/dac
+    generate -i http://122.112.212.213:10260/swagger/doc.json -l java -c E:/code/study/swagger-codegen/modules/swagger-codegen-cli/src/main/resources/cfg.json -o /sv/samples/client/stream_gateway
+    generate -i https://vac.yun-ti.com:1992/swagger/swagger.json  -l java -c E:/code/study/swagger-codegen/modules/swagger-codegen-cli/src/main/resources/cfg.json -o /sv/samples/client/vac
      */
 
     public static void main(String[] args) {
